@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    color: var(--primary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+:root {
+    --primary-color: #000000;
+    --secondary-color: #003087;
+    --tertiary-color: #FFFFFF;
+  }
+
+
+/* Header CSS */
+
+header {
+  padding: 20px 35px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; 
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: var(--tertiary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+  background: var(--primary-color);
+  color: var(--tertiary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+
+/* Hero CSS */
+
+.hero {
+  background-color: var(--primary-color);
+  background-size: 50px;
+  background-attachment: fixed;
+  background-position: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start; 
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: center;
+  margin: 3.5%;
+  color: var(--tertiary-color);
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.section {
+  padding: 60px;
+}
+
+.intro {
+  color: var(--tertiary-color);
+  padding: 60px;
+}
+
+/* Body Code */
+
+.section-title {
+  font-size: 48px;
+  border-bottom: 3px solid;
+  color: var(--primary-color);
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.flex-row p {
+  text-align: center;
+  color: #000000;
+}
+
+.primary-border {
+  border-color: var(--secondary-color);
+}
+
+.secondary-border {
+  border-color: var(--tertiary-color);
+}
