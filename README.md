@@ -1,8 +1,4 @@
-# Portfolio for challenge 2
-Very basic framing and code work for my portfolio
+# Portfolio v2.00 
+This is my Portfolio! Built using React and Bootstrap i've created a simple portfolio with links to some projects and some info about me. Contact form will be useable soon!
 
-## Planned Additions
-- Make it look nicer
-- Add more Content
-- Make a new Header
-- Make assets for personal use
+## Made With
