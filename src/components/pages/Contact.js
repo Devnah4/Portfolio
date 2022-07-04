@@ -32,11 +32,13 @@ export default function Contact() {
 
     return (
         <div>
-        <form className="form">
+        <form >
+            <div className="container form-group justify-content-center">
             <input name="email" type="email" placeholder="email" onChange={handleInputChange}></input>
             <input name="name" type="text" placeholder="name" onChange={handleInputChange}></input>
-            <input name="message" type="text" placeholder="message" onChange={handleInputChange}></input>
+            <textarea name="message" defaultValue={message} onBlur={handleInputChange} rows="5" />
             <button type="button" onClick={handleFormSubmit}>Submit</button>
+            </div>
         </form>
         {errorMessage && (
         <div>
