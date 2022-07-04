@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #00439c;
+  --tertiary-color: #ffffff;
+  --quaternary-color: #cd3d0f;
+  --quinary-color: #2d64e6;
+  --senary-color: #99aab5;
+}
+
+body {
+  background-color: var(--tertiary-color);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav {
+  background-color: var(--primary-color);
+}
+
+.logo {
+  height: 64px
+}
+
+.project {
+  height: 200px;
+  width: 300px
+}
