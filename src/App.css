@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #00439c;
+  --tertiary-color: #ffffff;
+  --quaternary-color: #cd3d0f;
+  --quinary-color: #2d64e6;
+  --senary-color: #99aab5;
+}
+
+.body {
+  color: var(--senary-color);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav {
+  color: var(--primary-color);
+}
