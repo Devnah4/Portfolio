@@ -32,6 +32,8 @@ export default function Contact() {
 
     return (
         <div>
+            <h1>Contact Me!</h1>
+            <h2>Coming Soon!</h2>
         <form >
             <div className="container form-group justify-content-center">
             <input name="email" type="email" placeholder="email" onChange={handleInputChange}></input>

@@ -38,6 +38,12 @@ export default function about() {
             <img src="./employeetracker.png" className="project" alt="Employee Tracker" />
             <a href="https://github.com/Devnah4/employee-tracker-for-science">View the repository</a>
             </div>
+            <div className="row col-6">
+            <h1>Fridge-Friend</h1>
+            <img src="./fridge-friend.png" className="project" alt="Fridge Friend" />
+            <a href="https://github.com/beimy/fridge-friend">View the repository</a>
+            <a href="https://fridge-friends.herokuapp.com/">View the Deployment</a>
+            </div>
         </div>
     )
 }
