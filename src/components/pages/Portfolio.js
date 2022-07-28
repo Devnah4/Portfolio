@@ -20,7 +20,7 @@ export default function about() {
             </div>
             <div className="row col-6">
             <h1>Food Festival</h1>
-            <img src="./foodfestival.png" className="project" alt="Food Festival" />
+            <img src="./foodfestival.PNG" className="project" alt="Food Festival" />
             <a href="https://github.com/Devnah4/food-festival">View the repository</a>
             </div>
             <div className="row col-6">
@@ -40,7 +40,7 @@ export default function about() {
             </div>
             <div className="row col-6">
             <h1>Fridge-Friend</h1>
-            <img src="./fridge-friend.png" className="project" alt="Fridge Friend" />
+            <img src="./fridge_friend.png" className="project" alt="Fridge Friend" />
             <a href="https://github.com/beimy/fridge-friend">View the repository</a>
             <a href="https://fridge-friends.herokuapp.com/">View the Deployment</a>
             </div>
