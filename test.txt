@@ -1,0 +1,21 @@
+<footer class="page-footer mt-auto">
+        <div class="footer-copyright text-center py-3 text-black">
+          &copy; {new Date().getFullYear()}
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a href="https://www.linkedin.com/in/martin-costas-9b6033233/">
+                <img src="./lilogo.png" alt="Linkedin Logo" className="logo" />
+              </a>
+            </li>
+            <li class="ms-3">
+              <a href="https://github.com/Devnah4">
+                <img
+                  src="./GitHubLogo.png"
+                  alt="GitHub Logo"
+                  className="logo"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
