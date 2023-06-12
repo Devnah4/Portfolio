@@ -35,10 +35,21 @@ body {
   width: 300px
 }
 
+<<<<<<< Updated upstream
 .bodyDiv {
   height: 100vh;
 }
 
 footer {
   flex-shrink: 0;
+=======
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--senary-color);
+  text-align: center;
+>>>>>>> Stashed changes
 }
